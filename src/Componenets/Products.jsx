@@ -41,7 +41,7 @@ function Products() {
           <img
             src={product.images}
             alt={product.title}
-            className="w-[150px] h-[200px] mt-2 mb-4"
+            className="w-[150px] h-[400px] mt-2 mb-4"
           />
 
           <button
