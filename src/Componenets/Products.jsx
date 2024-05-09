@@ -41,11 +41,11 @@ function Products() {
           <img
             src={product.images}
             alt={product.title}
-            className="w-[140px] h-[400px] mt-2 mb-4"
+            className="w-[140px] h-[400px] mt-2 mb-3"
           />
 
           <button
-            className="bg-green-500 text-white p-2 rounded mt-5"
+            className="bg-green-500 text-white p-2 rounded mt-4"
             onClick={() => handleShopNow(product)} 
           >
             Buy now
