@@ -15,7 +15,7 @@ function CartPage() {
   return (
     <div className="container mx-auto flex">
       <div className="w-3/4">
-        <h1 className="text-2xl font-bold my-4">Shopping Cart</h1>
+        <h1 className="text-xl font-bold my-3">Shopping Cart</h1>
         {cartItems.length === 0 ? (
           <p>Your cart is empty.</p>
         ) : (
